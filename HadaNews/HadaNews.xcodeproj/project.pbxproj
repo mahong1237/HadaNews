@@ -413,10 +413,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Huddersfield Education Technology Limited (F5Q9S3Y52L)";
 				INFOPLIST_FILE = HadaNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.8000m.HadaNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c9157ffe-ca52-4782-8248-cb05df949881";
 			};
 			name = Debug;
 		};
@@ -424,10 +426,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Beijing Huddersfield Education Technology Limited (F5Q9S3Y52L)";
 				INFOPLIST_FILE = HadaNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.8000m.HadaNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c9157ffe-ca52-4782-8248-cb05df949881";
 			};
 			name = Release;
 		};
@@ -496,6 +500,7 @@
 				9B07D8181D59A3E00043B486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B07D8191D59A3E00043B486 /* Build configuration list for PBXNativeTarget "HadaNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				9B07D81B1D59A3E00043B486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B07D81C1D59A3E00043B486 /* Build configuration list for PBXNativeTarget "HadaNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				9B07D81E1D59A3E00043B486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
